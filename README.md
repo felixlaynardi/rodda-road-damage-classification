@@ -13,5 +13,5 @@ Bangkit Capstone Project
   pip install keras-utils
 ```
 
-Use RoadDamageClassification.ipynb for **Training**
-Use app.py for **Deployment**
+1. Use RoadDamageClassification.ipynb for **Training**
+2. Use app.py for **Deployment**
