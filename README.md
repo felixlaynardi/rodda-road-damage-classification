@@ -15,3 +15,13 @@ Bangkit Capstone Project
 
 1. Use RoadDamageClassification.ipynb for **Training**
 2. Use app.py for **Deployment**
+
+#Android Apps
+
+**Features**
+1. Login/Registration
+2. Report of Damaged Road
+3. Detail of the Report
+4. Picture of Damaged Road
+5. Picture of the Damage of the Road
+6. Sending the Report
