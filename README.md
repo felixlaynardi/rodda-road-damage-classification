@@ -16,7 +16,7 @@ Bangkit Capstone Project
 1. Use RoadDamageClassification.ipynb for **Training**
 2. Use app.py for **Deployment**
 
-#Android Apps
+## Android Apps
 
 **Features**
 1. Login/Registration
