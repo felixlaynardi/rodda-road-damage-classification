@@ -28,7 +28,10 @@ Bangkit Capstone Project
 3. Detail of the Report(if the report item is clicked)    
 <img src="https://user-images.githubusercontent.com/79303742/121196775-f53f0980-c89a-11eb-8e26-1f8480a9c561.jpg" width="300" height="600">
 
-4. Picture of Damaged Road
- 
-7. Picture of the Damage of the Road
-8. Sending the Report
+4. Fill the information about the road
+Road - Damaged Road (Detail) - Location
+<img src="https://user-images.githubusercontent.com/79303742/121199413-1b65a900-c89d-11eb-98f3-a390a2c3772b.jpg" width="300" height="600">
+<img src="ttps://user-images.githubusercontent.com/79303742/121199438-202a5d00-c89d-11eb-8ded-e343679b862c.jpg" width="300" height="600">
+<img src="https://user-images.githubusercontent.com/79303742/121199454-23bde400-c89d-11eb-86ab-d416d9a1b87b.jpg" width="300" height="600">
+
+
