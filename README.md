@@ -25,8 +25,7 @@ Bangkit Capstone Project
 2. Report of Damaged Road (Main Page)  
 <img src="https://user-images.githubusercontent.com/79303742/121196516-bf9a2080-c89a-11eb-93de-4f1c7edf70c8.jpg" width="300" height="600"> <img src="https://user-images.githubusercontent.com/79303742/121196552-c9238880-c89a-11eb-89a5-b2a5cbd2dbf2.jpg" width="300" height="600">
 
-3. Detail of the Report  
-If the report item have been clicked  
+3. Detail of the Report(if the report item is clicked)    
 <img src="https://user-images.githubusercontent.com/79303742/121196775-f53f0980-c89a-11eb-8e26-1f8480a9c561.jpg" width="300" height="600">
 
 4. Picture of Damaged Road
