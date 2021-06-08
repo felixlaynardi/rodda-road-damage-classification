@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Rodda Application</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Email</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="have_account">Have Account?</string>
+    <string name="login">Login</string>
+    <string name="no_have_account">No have account?</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="telphone_number">8121xxxxxx</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="submit">Submit</string>
+    <string name="country_code_hint">62</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="resend">Resend</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="title_activity_page_main">PageMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Reports</string>
+    <string name="logout">Log Out</string>
+    <string name="are_you_sure_want_to_log_out">Are you sure want to Log Out?</string>
+    <string name="title">Title</string>
+    <string name="ask_logout">Are you sure want to Log Out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loading">Loading…</string>
+
+    <string name="lokasi">Location</string>
+    <string name="catatan">Catatan</string>
+    <string name="gambar_jalanan_yang_rusak">Gambar jalanan yang rusak</string>
+    <string name="kirimkan_laporan">Send Report</string>
+    <string name="tambahkan_foto">Add Picture</string>
+    <string name="selanjutnya">Next</string>
+    <string name="ini_merupakan_gambar_jalan">Ini merupakan gambar jalan</string>
+    <string name="tambahkan_foto_detail">Add More Detail Picture</string>
+    <string name="gambar_detail_kerusakan">gambar detail kerusakan</string>
+    <string name="lokasi_saya">My Location</string>
+    <string name="ambil_foto_kerusakan_jalan_lebih_dekat">Take a Picture of Damaged Road More Closer</string>
+    <string name="ambil_foto_kerusakan_jalan">Take a Picture of Damaged Road</string>
+    <string name="checklist_sukses">Checklist sukses</string>
+    <string name="kembali">Back to Home</string>
+    <string name="jalan_utama">Main Road</string>
+    <string name="kerusakan_jalan">Damaged Road</string>
+    <string name="text_in_login">Login to your account using Email and Password</string>
+    <string name="text_in_home">Reports</string>
+    <string name="tips_location">Click My Location button to get your current location. After Request Permissions, click again</string>
+</resources>

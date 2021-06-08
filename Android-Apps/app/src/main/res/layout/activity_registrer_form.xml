@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_main">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        tools:context=".ui.um.register.RegistrerFormActivity">
+
+        <ImageView
+            android:id="@+id/img_rodda"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="165dp" />
+
+        <EditText
+            android:id="@+id/edit_realname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/outline_person_black_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/full_name"
+            android:inputType="text"
+            android:background="@drawable/bg_text_rounded"
+            android:padding="14dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline" />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/outline_email_black_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/email_address"
+            android:textSize="14sp"
+            android:background="@drawable/bg_text_rounded"
+            android:padding="14dp"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_realname" />
+
+        <EditText
+            android:id="@+id/edit_countryCode"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/country_code_hint"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:inputType="number"
+            android:background="@drawable/bg_text_rounded"
+            android:padding="14dp"
+            android:drawableStart="@drawable/outline_phone_black_24"
+            android:drawablePadding="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/edit_numb"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_email" />
+
+        <EditText
+            android:id="@+id/edit_numb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/telphone_number"
+            android:textSize="14sp"
+            android:inputType="number"
+            android:background="@drawable/bg_text_rounded"
+            android:padding="14dp"
+            android:layout_marginStart="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/edit_countryCode"
+            app:layout_constraintTop_toTopOf="@id/edit_countryCode"/>
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto"
+            android:drawableStart="@drawable/outline_vpn_key_black_24"
+            android:drawablePadding="10dp"
+            android:hint="@string/password"
+            android:textSize="14sp"
+            android:background="@drawable/bg_text_rounded"
+            android:padding="14dp"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_numb" />
+
+        <EditText
+            android:id="@+id/edit_passwordConfirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto"
+            android:drawableStart="@drawable/outline_vpn_key_black_24"
+            android:drawablePadding="10dp"
+            android:hint="@string/confirm_password"
+            android:textSize="14sp"
+            android:background="@drawable/bg_text_rounded"
+            android:padding="14dp"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_password" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/register"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_passwordConfirm" />
+
+        <TextView
+            android:id="@+id/tv_haveAcc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="end"
+            android:text="@string/have_account"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tv_login"
+            app:layout_constraintTop_toBottomOf="@id/btn_register" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/login"
+            android:textColor="@color/text_color_blue"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_haveAcc"
+            app:layout_constraintTop_toBottomOf="@id/btn_register" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

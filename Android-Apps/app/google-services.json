@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "969576237823",
+    "firebase_url": "https://cap-0422-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cap-0422",
+    "storage_bucket": "cap-0422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969576237823:android:84b1ab4e8fcc2dc9e09aca",
+        "android_client_info": {
+          "package_name": "com.rodda.detailmodule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969576237823-2r0ri5o4atp6eatg390c4m4elv4qpmqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp2au4ZO_0gv3iWNJc16v5joQ9MDuM3vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969576237823-2r0ri5o4atp6eatg390c4m4elv4qpmqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969576237823:android:fb9a0518073bdbf1e09aca",
+        "android_client_info": {
+          "package_name": "com.rodda.roddaapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969576237823-2r0ri5o4atp6eatg390c4m4elv4qpmqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp2au4ZO_0gv3iWNJc16v5joQ9MDuM3vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969576237823-2r0ri5o4atp6eatg390c4m4elv4qpmqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969576237823:android:fc00ede486649843e09aca",
+        "android_client_info": {
+          "package_name": "com.singgihrp.usermg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969576237823-2r0ri5o4atp6eatg390c4m4elv4qpmqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp2au4ZO_0gv3iWNJc16v5joQ9MDuM3vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969576237823-2r0ri5o4atp6eatg390c4m4elv4qpmqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+rootProject.name = "Rodda Application"
+include ':app'
