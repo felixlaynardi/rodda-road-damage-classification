@@ -51,7 +51,7 @@ gcloud beta compute --project=cap-0422 instances create cap-0422 --zone=us-centr
 2. Set the location to regional and choose closest to you
 3. Click create
 
-**Upload Machine Learning Model & API Scipt**
+**Upload Machine Learning Model & API Script**
 
 1. In created bucket click upload file
 2. Choose the ML model and API script in your local machine
